@@ -1,0 +1,82 @@
+|--- distancia_km_real <= 7.98
+|   |--- misma_troncal <= 0.50
+|   |   |--- hora_pico <= 0.50
+|   |   |   |--- capacidad_origen <= 148.00
+|   |   |   |   |--- troncal_origen_Caracas_Sur <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- troncal_origen_Caracas_Sur >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- capacidad_origen >  148.00
+|   |   |   |   |--- capacidad_destino <= 148.00
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- capacidad_destino >  148.00
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- hora_pico >  0.50
+|   |   |   |--- capacidad_origen <= 236.00
+|   |   |   |   |--- area_origen_m2 <= 371.86
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- area_origen_m2 >  371.86
+|   |   |   |   |   |--- class: 2
+|   |   |   |--- capacidad_origen >  236.00
+|   |   |   |   |--- capacidad_destino <= 148.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- capacidad_destino >  148.00
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |--- misma_troncal >  0.50
+|   |   |--- troncal_origen_Caracas_Sur <= 0.50
+|   |   |   |--- hora_pico <= 0.50
+|   |   |   |   |--- lluvia <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- lluvia >  0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- hora_pico >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- troncal_origen_Caracas_Sur >  0.50
+|   |   |   |--- class: 2
+|--- distancia_km_real >  7.98
+|   |--- distancia_km_real <= 15.04
+|   |   |--- lluvia <= 0.50
+|   |   |   |--- hora_pico <= 0.50
+|   |   |   |   |--- area_destino_m2 <= 520.34
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- area_destino_m2 >  520.34
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- hora_pico >  0.50
+|   |   |   |   |--- capacidad_origen <= 148.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- capacidad_origen >  148.00
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- lluvia >  0.50
+|   |   |   |--- hora_pico <= 0.50
+|   |   |   |   |--- capacidad_origen <= 148.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- capacidad_origen >  148.00
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- hora_pico >  0.50
+|   |   |   |   |--- area_origen_m2 <= 484.34
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- area_origen_m2 >  484.34
+|   |   |   |   |   |--- class: 0
+|   |--- distancia_km_real >  15.04
+|   |   |--- area_origen_m2 <= 408.50
+|   |   |   |--- area_origen_m2 <= 134.53
+|   |   |   |   |--- hora_pico <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- hora_pico >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- area_origen_m2 >  134.53
+|   |   |   |   |--- lluvia <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- lluvia >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- area_origen_m2 >  408.50
+|   |   |   |--- area_destino_m2 <= 402.34
+|   |   |   |   |--- area_destino_m2 <= 164.68
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- area_destino_m2 >  164.68
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- area_destino_m2 >  402.34
+|   |   |   |   |--- capacidad_origen <= 258.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- capacidad_origen >  258.00
+|   |   |   |   |   |--- truncated branch of depth 2
